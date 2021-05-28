@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Link from 'next/link'
-
+import Footer from "./components/footer";
 export default function Home() {
   return (
     <div className="container">
@@ -40,15 +40,7 @@ export default function Home() {
           </Link>
         </div>
       </main>
-
-      <footer>
-        <Link href="/" >
-          <a target="_blank"
-             rel="noopener noreferrer">
-          Powered by xwlj888.cn
-          </a>
-        </Link>
-      </footer>
+      <Footer />
     </div>
   )
 
