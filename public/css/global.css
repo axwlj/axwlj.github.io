@@ -128,6 +128,7 @@ code {
 
 html,
 body {
+    background: linear-gradient(to left bottom, hsl(53deg 60% 57%) 0%, hsl(180deg 97% 50% / 71%) 100%);
     padding: 0;
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
