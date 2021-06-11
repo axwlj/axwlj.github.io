@@ -1,11 +1,7 @@
-import Header from "../components/header";
-import Footer from "../components/footer";
-const Tool = ()  =>(
-    <div>
-        <Header />
+import Layout from "../components/myLayout";
+export default ()   =>(
+    <Layout title="工具">
         <h1>Tool</h1>
-        <Footer />
-    </div>
+    </Layout>
 
 )
-export default Tool;

@@ -1,12 +1,7 @@
-import Header from "../components/header";
-import Footer from "../components/footer";
+import Layout from "../components/myLayout";
 
-const Index = ()  =>(
-    <div>
-        <Header />
+export default ()  =>(
+    <Layout title={"首页"}>
         <h1>Index</h1>
-        <Footer/>
-    </div>
+    </Layout>
 )
-
-export default Index;

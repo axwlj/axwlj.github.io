@@ -1,11 +1,6 @@
-import Header from "../components/header";
-import Footer from "../components/footer";
-const Exchange = ()  =>(
-    <div>
-        <Header />
+import Layout from "../components/myLayout";
+export default ()  =>(
+    <Layout title={"交流"}>
         <h1>Exchange</h1>
-        <Footer/>
-    </div>
+    </Layout>
 )
-
-export default Exchange;

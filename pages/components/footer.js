@@ -3,7 +3,7 @@ const Footer = () =>(
     <div>
         <footer>
             <Link href="/" >
-                <a target="_blank"
+                <a  style={{textDecoration: 'none'}} target="_blank"
                    rel="noopener noreferrer">
                     Powered by xwlj888.cn
                 </a>
